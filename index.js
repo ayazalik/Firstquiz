@@ -10,12 +10,12 @@ function play(question,answer)
 var userAnswer=readlinesync.question(question)
   if(userAnswer === answer)
   {
-    console.log("Sahi jawab")
+    console.log("Sahi-jawab")
     score=score+1;
   }
   else
   {
-    console.log("Galat jawab")
+    console.log("Galat-jawab")
     console.log("Answer was- "+answer+ " - better luck next time")
   }
   console.log("current score is "+score)
